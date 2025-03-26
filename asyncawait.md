@@ -31,6 +31,12 @@
 
 ![image-20250326165141963](C:\Users\NBKJ\Desktop\前端\note\vue3\images\image-20250326165141963.png)
 
+##### 弹窗
+
+const { createMessage, createConfirm } = useMessage();
+
+![image-20250326173238169](C:\Users\NBKJ\Desktop\前端\note\vue3\images\image-20250326173238169.png)
+
 提交前缀
 
 token
