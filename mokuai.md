@@ -64,7 +64,7 @@ ps：订单状态为挂单，所有item的库存数量不改变，标记为负�
 1. 开启销售 ---saleId、salestatus
 2. 查看商品库存 （productId）
 3. 结束销售--->创建saleLineItem、currentSale.2list<order> [successList,errorList]
-       * --->生成成功order ---->successList.setid---->setSaleLineItemList()---->计算数量和价格---库存调度-->未支付
+       * --->生成成功order ---->successList.setid---->setSaleLineItemList()---->计算数量和价格---**库存调度-**->未支付
       *  --->生成挂单order ---->errorList.setid---->setSaleLineItemList()----->计算数量和价格------->挂单
 4. 支付订单
 
